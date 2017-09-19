@@ -225,7 +225,16 @@ body {
   line-height: 1.7;
   color: #259445;
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  background-attachment: fixed;
+}
+.body-white{
+  line-height: 1.7;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #fff;
   background-attachment: fixed;
@@ -234,7 +243,7 @@ body {
   line-height: 1.7;
   color: grey;
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #fff;
   background-attachment: fixed;
@@ -294,7 +303,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto"
+  font-family: 'Open Sans', sans-serif
   font-weight: 700;
   line-height: 1.42857143;
   color: #111111;
@@ -361,7 +370,7 @@ h6,
 h5,
 h6,
 p {
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
 }
 p {
   line-height: 1.7;
@@ -388,13 +397,13 @@ form {
   font-family: 'Raleway', sans-serif;
 }
 .font-opensans {
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
 }
 .font-playfair {
   font-family: 'Playfair Display', serif;
 }
 .font-droid {
-  font-family: "Roboto"
+  font-family: 'Open Sans', sans-serif
 }
 /* breadcrumb */
 .breadcrumb {
@@ -1171,7 +1180,7 @@ section > .container-fluid {
 }
 .menuzord-menu > li > a {
   font-size: 13px;
-  color: #333333;
+  color: #ffffff;
 }
 .menuzord .menuzord-menu > li.active > a i,
 .menuzord .menuzord-menu > li:hover > a i,
@@ -1490,7 +1499,7 @@ section > .container-fluid {
 .menu-full-page #fullpage-nav li a {
   color: #111;
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   font-weight: 400;
   text-transform: uppercase;
@@ -3410,7 +3419,7 @@ textarea {
   background: none repeat scroll 0 0 transparent;
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
   height: 18px;
   left: 2.8571em;
   line-height: 1;
@@ -5671,7 +5680,7 @@ blockquote p {
 .nav-tabs > li > a {
   background-color: #f5f5f5;
   border-radius: 0;
-  font-family: "Roboto";
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   color: #555555;
   padding: 7px 15px;
