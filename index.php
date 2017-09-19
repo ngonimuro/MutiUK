@@ -66,6 +66,47 @@
 </head>
 <body class="has-side-panel side-panel-right fullwidth-page side-push-panel">
 <div class="body-overlay"></div>
+<!-- <div id="side-panel" class="dark" data-bg-img="http://placehold.it/1920x1280">
+  <div class="side-panel-wrap">
+    <div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="pe-7s-close font-36"></i></a></div>
+    <a href="javascript:void(0)"><img alt="logo" src="images/logo_large.png"></a>
+    <div class="side-panel-nav mt-30">
+      <div class="widget no-border">
+        <nav>
+          <ul class="nav nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a class="tree-toggler nav-header">Services <i class="fa fa-angle-down"></i></a>
+              <ul class="nav nav-list tree">                
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </li>
+             <li><a href="#">Patien Guide</a></li>
+            <li><a href="#">Contacts</a></li>
+           </ul>
+        </nav>        
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="side-panel-widget mt-30">
+      <div class="widget no-border">
+        <ul>
+          <li class="font-14 mb-5"> <i class="fa fa-phone text-theme-colored"></i> <a href="#" class="text-gray">123-456-789</a> </li>
+          <li class="font-14 mb-5"> <i class="fa fa-clock-o text-theme-colored"></i> Mon-Fri 8:00 to 2:00 </li>
+          <li class="font-14 mb-5"> <i class="fa fa-envelope-o text-theme-colored"></i> <a href="#" class="text-gray">contact@yourdomain.com</a> </li>
+        </ul>      
+      </div>
+      <div class="widget">
+        <ul class="styled-icons icon-dark icon-theme-colored icon-sm">
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      <p>Copyright &copy;2016 ThemeMascot</p>
+    </div>
+  </div>
+</div> -->
 <div id="wrapper" class="clearfix">
   <!-- preloader -->
   <div id="preloader">
@@ -80,107 +121,28 @@
     <div class="header-top sm-text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="widget no-border m-0">
                 <a class="menuzord-brand pull-left flip" href="javascript:void(0)">
                     <img src="images/logo_large.png" alt="">
                   </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="widget no-border m-0">
               <br> 
               <p align="right">One of our representatives will happily contact you within 24 hours.
                   For urgent needs call us at</p>
             </div>
           </div>
-          <div class="col-md-4 body"> 
-            
-           <span><i class="fa fa-phone-square" style="font-size:16px;color:red"></i><p style="font-size:14px;">CALL US ON: +44 74294 85974 WE'LL BE HAPPY TO ASSIST YOU!</p> 
-           </span>        
-              <div class="container-fluid">              
-              <div id="navbar" class="collapse navbar-collapse">                
-                <ul class="nav navbar-nav navbar-right">
-                  <li class="dropdown">
-                    <a href="http://phpoll.com/register" class="dropdown-toggle" data-toggle="dropdown">Register<span class="caret"></span></a>
-                    <ul class="dropdown-menu dropdown-lr animated flipInX" role="menu">
-                      <div class="col-lg-12">
-                        <div class="text-center"><h3><b>Register</b></h3></div>
-                        <form id="ajax-register-form" action="http://phpoll.com/register/process" method="post" role="form" autocomplete="off">
-                          <div class="form-group">
-                            <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
-                          </div>
-                          <div class="form-group">
-                            <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
-                          </div>
-                          <div class="form-group">
-                            <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-                          </div>
-                          <div class="form-group">
-                            <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
-                          </div>
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="col-xs-6 col-xs-offset-3">
-                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-info" value="Register Now">
-                              </div>
-                            </div>
-                          </div>
-                                            <input type="hidden" class="hide" name="token" id="token" value="7c6f19960d63f53fcd05c3e0cbc434c0">
-                        </form>
-                      </div>
-                    </ul>
-                  </li>
-                  <li class="dropdown">
-                    <a href="http://phpoll.com/login" class="dropdown-toggle" data-toggle="dropdown">Log In <span class="caret"></span></a>
-                    <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
-                    <div class="col-lg-12">
-                      <div class="text-center"><h3><b>Log In</b></h3></div>
-                      <form id="ajax-login-form" action="http://phpoll.com/login/process" method="post" role="form" autocomplete="off">
-                        <div class="form-group">
-                          <label for="username">Username</label>
-                          <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" autocomplete="off">
-                        </div>
-                        <div class="form-group">
-                          <label for="password">Password</label>
-                          <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
-                        </div>
-                        <div class="form-group">
-                          <div class="row">
-                            <div class="col-xs-7">
-                              <input type="checkbox" tabindex="3" name="remember" id="remember">
-                              <label for="remember"> Remember Me</label>
-                            </div>
-                            <div class="col-xs-5 pull-right">
-                              <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Log In">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="text-center">
-                                <a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <input type="hidden" class="hide" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6">
-                      </form>
-                    </div>
-                  </ul>
-                </li>
-              </ul>
-              </div>
-            </div>           
-         </div>
         </div>
       </div>
     </div>
     <div class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed bg-lightest">
         <div class="container">
-          <nav id="menuzord-right" class="menuzord blue bg-lightest">
+          <nav id="menuzord-right" class="menuzord blue bg-lightest">           
+            
             <ul class="menuzord-menu onepage-nav">
               <li class="active"><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
@@ -191,7 +153,7 @@
           </nav>
         </div>
       </div>
-    </div>    
+    </div>
   </header>
   
   <!-- Start main-content -->
