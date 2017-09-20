@@ -224,7 +224,7 @@ This file contains the common styles of this theme.
 body {
   line-height: 1.7;
   color: #259445;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -242,7 +242,7 @@ body {
 .body-alt{
   line-height: 1.7;
   color: grey;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -304,7 +304,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'Open Sans', sans-serif
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.42857143;
   color: #111111;
 }
@@ -365,7 +365,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-weight: 700;
+  font-weight: 650;
 }
 h5,
 h6,
